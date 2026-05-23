@@ -130,3 +130,14 @@ a:hover, a:active {
 .entry-content ol li {
     display: list-item;
 }
+
+/* About page avatar */
+.avatar {
+    display: block;
+    width: 180px;          /* adjust to taste */
+    height: 180px;
+    object-fit: cover;     /* crops cleanly without stretching */
+    border-radius: 16px;   /* rounded corners — use 50% for a circle */
+    margin: 0 auto 1.5rem; /* centres it, adds space below */
+    border: 3px solid #84cc16; /* optional: lime accent border */
+}

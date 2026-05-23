@@ -1,6 +1,8 @@
 Title: About Me
 Slug: about-me
 
+<img src="{static}/extra/avatar.jpg" alt="Photo of me" class="avatar" />
+
 Hi! I'm Austin Hardesty, a husband, a dad, and a self-taught Python programmer, among many other things.
 
 ## Why did you start this blog?
