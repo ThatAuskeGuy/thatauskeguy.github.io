@@ -5,6 +5,9 @@ on:
     branches:
       - main
 
+permissions:           # ← ADD THIS BLOCK
+  contents: write      # ← allows the action to push to gh-pages
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
