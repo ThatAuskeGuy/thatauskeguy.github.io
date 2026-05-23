@@ -26,7 +26,9 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll / Social (edit or remove as you like)
 LINKS = ()
-SOCIAL = ()
+SOCIAL = (
+    ('GitHub', 'https://github.com/ThatAuskeGuy'),
+)
 
 DEFAULT_PAGINATION = 10
 
