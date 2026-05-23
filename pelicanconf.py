@@ -11,6 +11,12 @@ PAGE_PATHS = ['pages']
 TIMEZONE = 'America/Chicago'
 DEFAULT_LANG = 'en'
 
+# Theme settings
+THEME = 'themes/thatausketech'
+
+# Site subtitle
+SITESUBTITLE = "~/dev_and_stuff $"
+
 # Feed settings (disable locally)
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
@@ -28,6 +34,8 @@ DEFAULT_PAGINATION = 10
 STATIC_PATHS = ['extra']
 EXTRA_PATH_METADATA = {
     'extra/favicon.ico': {'path': 'favicon.ico'},
+    'extra/favicon-16x16.png': {'path': 'favicon-16x16.png'},
+    'extra/favicon-32x32.png': {'path': 'favicon-32x32.png'},
 }
 
 RELATIVE_URLS = True
