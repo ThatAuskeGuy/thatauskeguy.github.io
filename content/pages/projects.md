@@ -14,6 +14,7 @@ An app I'm building to help people:
 
 *Built with Next.js and Tailwind CSS*
 
+---
 
 ### A Home Pantry Inventory System
 **Live Site:** None yet!
@@ -26,6 +27,7 @@ Functions:
 - Create shopping lists
 - Generate meal ideas based on what's in your pantry
 
+---
 
 ### Secret e-commerce site
 **Live Site:** None yet!
