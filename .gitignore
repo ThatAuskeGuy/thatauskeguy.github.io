@@ -216,3 +216,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Pelican output
+output/
+
+# Virtual environment
+.venv/
+
+# Pelican cache
+.cache/
+__pycache__/
+*.pyc
