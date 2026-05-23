@@ -1,4 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>ThatAuskeGuy</title><link href="https://thatauskeguy.github.io/" rel="alternate"/><link href="https://thatauskeguy.github.io/feeds/all.atom.xml" rel="self"/><id>https://thatauskeguy.github.io/</id><updated>2026-05-22T11:20:00-05:00</updated><subtitle>~/dev_and_stuff $</subtitle><entry><title>Hello World</title><link href="https://thatauskeguy.github.io/hello-world.html" rel="alternate"/><published>2026-05-22T11:20:00-05:00</published><updated>2026-05-22T11:20:00-05:00</updated><author><name>Austin Hardesty</name></author><id>tag:thatauskeguy.github.io,2026-05-22:/hello-world.html</id><summary type="html">&lt;p&gt;My first blog on this Pelican blog.&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Hello World!&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>ThatAuskeGuy</title><link href="https://thatauskeguy.github.io/" rel="alternate"/><link href="https://thatauskeguy.github.io/feeds/all.atom.xml" rel="self"/><id>https://thatauskeguy.github.io/</id><updated>2026-05-23T15:53:00-05:00</updated><subtitle>~/dev_and_stuff $</subtitle><entry><title>May 23 2026 Thoughts</title><link href="https://thatauskeguy.github.io/may-23-2026-thoughts.html" rel="alternate"/><published>2026-05-23T15:53:00-05:00</published><updated>2026-05-23T15:53:00-05:00</updated><author><name>Austin Hardesty</name></author><id>tag:thatauskeguy.github.io,2026-05-23:/may-23-2026-thoughts.html</id><summary type="html">&lt;p&gt;Blog entry of my thoughts for the day&lt;/p&gt;</summary><content type="html">&lt;p&gt;Here are some thoughts for the day. Also, I needed something in my Beyond the Terminal category for the nav button to work properly.&lt;/p&gt;
+&lt;h2&gt;Braindump&lt;/h2&gt;
+&lt;p&gt;I've got a lot going on in my head these days...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;My oldest kids played their last soccer game of the season. They both love it, and our youngest is so ready to start playing. &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;With my BoldApply app idea, I'm going to need to start an LLC. &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;I constantly have a specifc quote on my mind. I'll probably do a whole writeup on it at some point with my thoughts on it.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;"You risk so much hesitating to fling yourself into the abyss." - Unknown Monk&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I'll have more to talk about later. Maybe if I think of more things later today, I'll add them to this post.&lt;/p&gt;
+&lt;p&gt;Have a great day ya'll!&lt;/p&gt;</content><category term="Beyond the Terminal"/><category term="thoughts"/><category term="development"/><category term="life"/></entry><entry><title>Hello World</title><link href="https://thatauskeguy.github.io/hello-world.html" rel="alternate"/><published>2026-05-22T11:20:00-05:00</published><updated>2026-05-22T11:20:00-05:00</updated><author><name>Austin Hardesty</name></author><id>tag:thatauskeguy.github.io,2026-05-22:/hello-world.html</id><summary type="html">&lt;p&gt;My first blog on this Pelican blog.&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Hello World!&lt;/h1&gt;
 &lt;p&gt;Welcome to the ThatAuskeGuy Blog! This site is built with &lt;a href="https://getpelican.com"&gt;Pelican&lt;/a&gt;, a Python static site generator, and it is hosted on GitHub Pages.&lt;/p&gt;
 &lt;p&gt;More posts and ramblings coming soon.&lt;/p&gt;</content><category term="Dev Blog"/><category term="intro"/><category term="pelican"/></entry></feed>
