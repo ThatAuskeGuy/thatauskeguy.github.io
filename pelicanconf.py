@@ -17,6 +17,19 @@ THEME = 'themes/thatausketech'
 # Site subtitle
 SITESUBTITLE = "~/dev_and_stuff $"
 
+# Menu items (edit or remove as you like)
+MENUITEMS = (
+    ('Home', '/'),
+    ('Dev Blog', '/category/dev-blog.html'),
+    ('Beyond the Terminal', '/category/beyond-the-terminal.html'),
+    ('Projects', '/pages/projects.html'),
+    ('About Me', '/pages/about-me.html'),
+    ('Contact Me', '/pages/contact-me.html'),
+)
+
+DISPLAY_PAGES_ON_MENU = False
+DISPLAY_CATEGORIES_ON_MENU = False
+
 # Feed settings (disable locally)
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None

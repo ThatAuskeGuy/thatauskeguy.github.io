@@ -1,6 +1,6 @@
 Title: Hello World
 Date: 2026-05-22 11:20
-Category: Blog
+Category: Dev Blog
 Tags: intro, pelican
 Slug: hello-world
 Author: Austin Hardesty
