@@ -43,11 +43,6 @@
     }
   </style>
 </head>
-<script>
-  const path = window.location.pathname;
-  document.getElementById('bad-path').textContent = path;
-  document.getElementById('bad-path-err').textContent = path;
-</script>
 <body>
   <div class="terminal" role="main" aria-label="404 error terminal">
 
@@ -79,5 +74,10 @@
     </p>
 
   </div>
+  <script>
+    const path = window.location.pathname;
+    document.getElementById('bad-path').textContent = path;
+    document.getElementById('bad-path-err').textContent = path;
+</script>
 </body>
 </html>
