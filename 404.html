@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>404 — bash: page not found</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #1a1f10;
+      color: #c8d8a8;
+      font-family: 'Ubuntu Mono', monospace;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    .terminal {
+      max-width: 680px;
+      width: 100%;
+    }
+
+    .line { margin-bottom: 0.35rem; }
+
+    .prompt { color: #84cc16; }
+    .cmd    { color: #e8f0d8; }
+    .err    { color: #f87171; }
+    .note   { color: #6b7f55; }
+    .link   { color: #84cc16; text-decoration: none; }
+    .link:hover { background: #84cc16; color: #0a0f00; }
+
+    .blink {
+      display: inline-block;
+      animation: blink-cursor 1s step-end infinite;
+    }
+    @keyframes blink-cursor {
+      50% { opacity: 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="terminal" role="main" aria-label="404 error terminal">
+
+    <p class="line">
+      <span class="prompt">user@thatauskeguy</span>:<span class="prompt">~</span>$
+      <span class="cmd"> GET /this-page</span>
+    </p>
+
+    <p class="line">
+      <span class="err">bash: /this-page: No such file or directory</span>
+    </p>
+
+    <p class="line" style="margin-top:1rem;">
+      <span class="note"># exit code 404</span>
+    </p>
+
+    <p class="line" style="margin-top:1.5rem;">
+      <span class="prompt">user@thatauskeguy</span>:<span class="prompt">~</span>$
+      <span class="cmd"> ls ~/ | grep "exists"</span>
+    </p>
+
+    <p class="line" style="margin-top:0.5rem; padding-left:1rem;">
+      <a href="/" class="link">~/home</a>
+    </p>
+
+    <p class="line" style="margin-top:1.5rem;">
+      <span class="prompt">user@thatauskeguy</span>:<span class="prompt">~</span>$
+      <span class="blink">_</span>
+    </p>
+
+  </div>
+</body>
+</html>
