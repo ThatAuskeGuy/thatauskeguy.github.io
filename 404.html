@@ -43,16 +43,21 @@
     }
   </style>
 </head>
+<script>
+  const path = window.location.pathname;
+  document.getElementById('bad-path').textContent = path;
+  document.getElementById('bad-path-err').textContent = path;
+</script>
 <body>
   <div class="terminal" role="main" aria-label="404 error terminal">
 
     <p class="line">
       <span class="prompt">user@thatauskeguy</span>:<span class="prompt">~</span>$
-      <span class="cmd"> GET /this-page</span>
+      <span class="cmd"> GET <span id="bad-path">/this-page</span></span>
     </p>
 
     <p class="line">
-      <span class="err">bash: /this-page: No such file or directory</span>
+      <span class="err">bash: <span id="bad-path-err">/this-page</span>: No such file or directory</span>
     </p>
 
     <p class="line" style="margin-top:1rem;">
