@@ -52,6 +52,7 @@ EXTRA_PATH_METADATA = {
     'extra/favicon-16x16.png': {'path': 'favicon-16x16.png'},
     'extra/favicon-32x32.png': {'path': 'favicon-32x32.png'},
     'extra/avatar.png': {'path': 'avatar.png'},
+    'extra/404.html': {'path': '404.html'},
 }
 
 RELATIVE_URLS = True
