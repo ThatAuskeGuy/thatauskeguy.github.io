@@ -16,6 +16,17 @@ An app I'm building to help people:
 
 ---
 
+### Plex Media Ripper
+**GitHub Repo:** [Plex Media Ripper](https://github.com/ThatAuskeGuy/plex-media-ripper)
+
+I have a Plex server at home that I want to add my media to. Since the server is a headless Linux server, I wanted something automated that can rip discs (audio and video), convert them to a Plex-friendly format, and place them in the correct file structure Plex expects.
+
+This project is under the MIT license.
+
+*Built with Python and Linux packages*
+
+---
+
 ### A Home Pantry Inventory System
 **Live Site:** None yet!
 
